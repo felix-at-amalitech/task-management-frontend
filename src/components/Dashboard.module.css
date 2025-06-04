@@ -1,0 +1,100 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.headerContent {
+  display: flex;
+  align-items: center;
+}
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: 2rem;
+}
+.userInfo {
+  font-size: 1rem;
+  color: #666;
+}
+.signOutButton {
+  padding: 0.5rem 1rem;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+.signOutButton:hover {
+  background-color: #d32f2f;
+}
+.main {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.noTasks {
+  text-align: center;
+  color: #666;
+  margin: 2rem 0;
+}
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.taskForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.input {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+.taskList {
+  list-style: none;
+  padding: 0;
+}
+.taskItem {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
