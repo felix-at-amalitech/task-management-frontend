@@ -7,9 +7,9 @@ Amplify.configure({
       // You must provide these values directly here.
       // Get these from your AWS Console:
       // userPoolId: Go to Cognito -> User Pools -> Your User Pool -> Pool details (e.g., 'eu-west-1_xxxxxxxxx')
-      userPoolId: import.meta.env.VITE_COGNITO_USER_POOL_ID,
+      userPoolId: import.meta.env.VITE_USER_POOL_ID,
       
-      userPoolClientId: import.meta.env.VITE_COGNITO_USER_POOL_CLIENT_ID,
+      userPoolClientId: import.meta.env.VITE_USER_POOL_CLIENT_ID,
 
       // Hosted UI / OAuth configuration
       loginWith: {
