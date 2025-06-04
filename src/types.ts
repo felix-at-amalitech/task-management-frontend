@@ -6,7 +6,7 @@ export interface User {
 }
 
 export interface Task {
-  id: string; // This will be taskId from DynamoDB
+  taskId: string; // This will be taskId from DynamoDB
   title: string;
   description: string;
   assignedTo: string; // User ID
