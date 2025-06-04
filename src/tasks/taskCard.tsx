@@ -16,7 +16,7 @@ const TaskCard: React.FC<TaskCardProps> = ({ task, isAdmin, onUpdate }) => {
   const [isUpdating, setIsUpdating] = useState(false);
 
   // Read API_BASE_URL from environment variable
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000';
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
   const statusClass = (status: Task['status']) => {
     switch (status) {

@@ -17,7 +17,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onTaskCreated }) => {
   const [formError, setFormError] = useState<string | null>(null);
 
   // Read API_BASE_URL from environment variable
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000';
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
   const handleCreateTask = async (e: React.FormEvent) => {
     e.preventDefault();
